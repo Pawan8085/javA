@@ -1,0 +1,15 @@
+JDK :-
+	JDK stands for java development kit it is  used to develop java applications it is for developer because developer has to 
+	create the create programe , has to fix the error , has to compile the code, jdk internally contains jre and jvm. Jdk provide
+	all the tool to work with java language.
+
+JRE :-    
+	JRE  stands for "java run time environment" jre is part of jdk it provide environment to compile java code it compile java
+	code and convert it into bytecode it internally contains jvm which is responsible to execute java programe.
+
+JVM :-
+	JVM stands for java virtual machine. it is a specification that  provides runtime environment there java bytecode can be
+	executed..
+	
+
+	
