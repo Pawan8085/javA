@@ -12,6 +12,8 @@ public class MoveNegativeToLeft {
                 int temp = arr[left];
                 arr[left] = arr[right];
                 arr[right] = temp;
+                left++;
+                right--;
             }
 
             // if left and right element both are negative then will increment our left variable cause we have to look for positive element 
@@ -19,8 +21,15 @@ public class MoveNegativeToLeft {
                 left++;
             }
 
+            // if both are positive then right element is in right positon will look for negative element and decrease our right pointer
+            else if (arr[left]>0 && arr[right]>0){
+                right--;
+            }
+
+            // if we are getting negative left side & positive right side then they are in right position will simply move our left & right pointer
             else{
                 right--;
+                left++;
             }
            
         }
