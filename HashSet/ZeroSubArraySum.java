@@ -1,7 +1,7 @@
 import java.util.HashMap;
 
 public class ZeroSubArraySum {
-    // max subarray with zero sum
+    // max subarray  with zero sum
      int maxLen(int arr[], int n){
        
         HashMap<Integer, Integer> map = new HashMap<>();
